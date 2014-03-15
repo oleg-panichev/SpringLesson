@@ -5,10 +5,20 @@
     <bean name="helloWorldService" class="SpringLesson.HelloWorldService"/>
     <bean name="helloKittyService" class="SpringLesson.HelloKittyService"/>
     <bean name="application" class="SpringLesson.Application">
-        <property name="greetingService" ref="configuredGreetingService"/>
-        <property name="greetingCount" value="3"/>
+        <property name="greetingService" ref="advancedChatBot"/>
+        <property name="greetingCount" value="6"/>
     </bean>
     <bean name="configuredGreetingService" class="SpringLesson.ConfiguredGreetingService">
         <property name="message" value="My message!"/>
+    </bean>
+    <bean name="advancedChatBot" class="SpringLesson.AdvancedChatBot">
+        <property name="messages">
+            <list>
+                <value>Hello!</value>
+                <value>How are you?</value>
+                <value>Hey</value>
+                <value>Privet, ya Misha!</value>
+            </list>
+        </property>
     </bean>
 </beans>

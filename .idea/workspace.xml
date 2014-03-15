@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="847e5b9c-2d63-424b-afbe-e4c92e0037f1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/SpringLesson/ConfiguredGreetingService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/SpringLesson/AdvancedChatBot.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/spring-config.xml" afterPath="$PROJECT_DIR$/src/main/java/spring-config.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -130,8 +130,19 @@
       <file leaf-file-name="spring-config.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/spring-config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="11" selection-start="803" selection-end="803" vertical-scroll-proportion="0.5698324" vertical-offset="0" max-vertical-offset="358">
+            <state line="8" column="47" selection-start="620" selection-end="620" vertical-scroll-proportion="0.37988827" vertical-offset="0" max-vertical-offset="493">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdvancedChatBot.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SpringLesson/AdvancedChatBot.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="52" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+              <folding>
+                <element signature="e#410#411#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -174,6 +185,7 @@
         <option value="$PROJECT_DIR$/src/main/java/SpringLesson/Application.java" />
         <option value="$PROJECT_DIR$/src/main/java/SpringLesson/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/SpringLesson/ConfiguredGreetingService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SpringLesson/AdvancedChatBot.java" />
         <option value="$PROJECT_DIR$/src/main/java/spring-config.xml" />
       </list>
     </option>
@@ -591,17 +603,21 @@
       <changelist id="847e5b9c-2d63-424b-afbe-e4c92e0037f1" name="Default" comment="" />
       <created>1394877797734</created>
       <updated>1394877797734</updated>
-      <workItem from="1394877814342" duration="1884000" />
+      <workItem from="1394877814342" duration="2476000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;">
       <created>1394879146408</created>
       <updated>1394879146408</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initial commit&#10;">
+      <created>1394879744440</created>
+      <updated>1394879744440</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1884000" />
+    <option name="totallyTimeSpent" value="2476000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -722,9 +738,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SpringLesson/AdvancedChatBot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="52" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+          <folding>
+            <element signature="e#410#411#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/spring-config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="11" selection-start="803" selection-end="803" vertical-scroll-proportion="0.5698324" vertical-offset="0" max-vertical-offset="358">
+        <state line="8" column="47" selection-start="620" selection-end="620" vertical-scroll-proportion="0.37988827" vertical-offset="0" max-vertical-offset="493">
           <folding />
         </state>
       </provider>
