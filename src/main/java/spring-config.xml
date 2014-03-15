@@ -5,7 +5,10 @@
     <bean name="helloWorldService" class="SpringLesson.HelloWorldService"/>
     <bean name="helloKittyService" class="SpringLesson.HelloKittyService"/>
     <bean name="application" class="SpringLesson.Application">
-        <property name="greetingService" ref="helloWorldService"/>
+        <property name="greetingService" ref="configuredGreetingService"/>
         <property name="greetingCount" value="3"/>
+    </bean>
+    <bean name="configuredGreetingService" class="SpringLesson.ConfiguredGreetingService">
+        <property name="message" value="My message!"/>
     </bean>
 </beans>

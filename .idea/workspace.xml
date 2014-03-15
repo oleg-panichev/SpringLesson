@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="847e5b9c-2d63-424b-afbe-e4c92e0037f1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/SpringLesson/App.java" afterPath="$PROJECT_DIR$/src/main/java/SpringLesson/App.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/SpringLesson/ConfiguredGreetingService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/spring-config.xml" afterPath="$PROJECT_DIR$/src/main/java/spring-config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SpringLesson.iws" />
@@ -108,9 +107,21 @@
       <file leaf-file-name="App.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/SpringLesson/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="71" selection-start="385" selection-end="385" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+            <state line="19" column="0" selection-start="513" selection-end="513" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConfiguredGreetingService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SpringLesson/ConfiguredGreetingService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="29" selection-start="324" selection-end="324" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+              <folding>
+                <element signature="e#293#294#0" expanded="true" />
+                <element signature="e#329#330#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -119,7 +130,7 @@
       <file leaf-file-name="spring-config.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/spring-config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="50" selection-start="625" selection-end="625" vertical-scroll-proportion="0.35883906" vertical-offset="0" max-vertical-offset="379">
+            <state line="12" column="11" selection-start="803" selection-end="803" vertical-scroll-proportion="0.5698324" vertical-offset="0" max-vertical-offset="358">
               <folding />
             </state>
           </provider>
@@ -162,6 +173,7 @@
         <option value="$PROJECT_DIR$/src/main/java/SpringLesson/HelloKittyService.java" />
         <option value="$PROJECT_DIR$/src/main/java/SpringLesson/Application.java" />
         <option value="$PROJECT_DIR$/src/main/java/SpringLesson/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SpringLesson/ConfiguredGreetingService.java" />
         <option value="$PROJECT_DIR$/src/main/java/spring-config.xml" />
       </list>
     </option>
@@ -579,12 +591,17 @@
       <changelist id="847e5b9c-2d63-424b-afbe-e4c92e0037f1" name="Default" comment="" />
       <created>1394877797734</created>
       <updated>1394877797734</updated>
-      <workItem from="1394877814342" duration="1293000" />
+      <workItem from="1394877814342" duration="1884000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit&#10;">
+      <created>1394879146408</created>
+      <updated>1394879146408</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1293000" />
+    <option name="totallyTimeSpent" value="1884000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -631,6 +648,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="Initial commit&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -661,6 +680,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SpringLesson/HelloWorldService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="59" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SpringLesson/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="5" selection-start="689" selection-end="689" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
@@ -679,23 +705,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SpringLesson/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="71" selection-start="385" selection-end="385" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+        <state line="19" column="0" selection-start="513" selection-end="513" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SpringLesson/HelloWorldService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/SpringLesson/ConfiguredGreetingService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="59" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
-          <folding />
+        <state line="12" column="29" selection-start="324" selection-end="324" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+          <folding>
+            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#329#330#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/spring-config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="50" selection-start="625" selection-end="625" vertical-scroll-proportion="0.35883906" vertical-offset="0" max-vertical-offset="379">
+        <state line="12" column="11" selection-start="803" selection-end="803" vertical-scroll-proportion="0.5698324" vertical-offset="0" max-vertical-offset="358">
           <folding />
         </state>
       </provider>
