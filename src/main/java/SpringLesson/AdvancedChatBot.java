@@ -7,6 +7,10 @@ import java.util.List;
  */
 public class AdvancedChatBot implements GreetingService {
     private List<String> messages;
+
+    public AdvancedChatBot() {
+    }
+
     @Override
     public void sendGreetings() {
         if(!messages.isEmpty())

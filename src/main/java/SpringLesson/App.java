@@ -1,6 +1,7 @@
 package SpringLesson;
 
 import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.FileSystemXmlApplicationContext;
 
 /**
@@ -13,7 +14,8 @@ public class App
     {
         // context - all beans that are controlled by spring
         ApplicationContext context=new FileSystemXmlApplicationContext("src\\main\\java\\spring-config.xml");
-        Application app=context.getBean(Application.class);
+//        ApplicationContext context=new AnnotationConfigApplicationContext(AppConfig.class);
+        AppConfig app=context.getBean(AppConfig.class);
         app.start();
     }
 }
