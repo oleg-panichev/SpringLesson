@@ -16,7 +16,7 @@ import java.util.Arrays;
 @Configuration
 public class AppConfig {
     @Autowired
-    @Qualifier("helloKitty")
+    @Qualifier("configuredGs")
     private GreetingService greetingService;
 
     @Value("#{greetingProperties.count}")
