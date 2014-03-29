@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="847e5b9c-2d63-424b-afbe-e4c92e0037f1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/SpringLesson/AppConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/greeting.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/SpringLesson/AdvancedChatBot.java" afterPath="$PROJECT_DIR$/src/main/java/SpringLesson/AdvancedChatBot.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/SpringLesson/App.java" afterPath="$PROJECT_DIR$/src/main/java/SpringLesson/App.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/SpringLesson/HelloKittyService.java" afterPath="$PROJECT_DIR$/src/main/java/SpringLesson/HelloKittyService.java" />
+    <list default="true" id="847e5b9c-2d63-424b-afbe-e4c92e0037f1" name="Default" comment="Initial commit&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/SpringLesson/BeforeExample.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_6_11.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_6_11.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpringLesson.iml" afterPath="$PROJECT_DIR$/SpringLesson.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/spring-config.xml" afterPath="$PROJECT_DIR$/src/main/java/spring-config.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -23,7 +20,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
-    <option name="PATCH_PATH" value="" />
+    <option name="PATCH_PATH" value="D:\Dropbox\Java\takeaticketPatches" />
   </component>
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
@@ -75,19 +72,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="GreetingService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SpringLesson/GreetingService.java">
+      <file leaf-file-name="App.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SpringLesson/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="1" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HelloWorldService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SpringLesson/HelloWorldService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="59" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+            <state line="19" column="17" selection-start="747" selection-end="752" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
               <folding />
             </state>
           </provider>
@@ -96,16 +84,27 @@
       <file leaf-file-name="HelloKittyService.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/SpringLesson/HelloKittyService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="17" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+            <state line="8" column="30" selection-start="151" selection-end="168" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SpringLesson/App.java">
+      <file leaf-file-name="BeforeExample.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SpringLesson/BeforeExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="21" selection-start="621" selection-end="621" vertical-scroll-proportion="0.0" vertical-offset="53" max-vertical-offset="425">
+            <state line="20" column="0" selection-start="549" selection-end="549" vertical-scroll-proportion="0.0" vertical-offset="190" max-vertical-offset="595">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="84" column="20" selection-start="2998" selection-end="2998" vertical-scroll-proportion="0.0" vertical-offset="1176" max-vertical-offset="1649">
               <folding />
             </state>
           </provider>
@@ -114,7 +113,7 @@
       <file leaf-file-name="ConfiguredGreetingService.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/SpringLesson/ConfiguredGreetingService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="5" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+            <state line="29" column="29" selection-start="742" selection-end="742" vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="663">
               <folding />
             </state>
           </provider>
@@ -123,7 +122,7 @@
       <file leaf-file-name="spring-config.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/spring-config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="61" selection-start="666" selection-end="666" vertical-scroll-proportion="-3.0" vertical-offset="95" max-vertical-offset="646">
+            <state line="32" column="43" selection-start="1893" selection-end="1911" vertical-scroll-proportion="-17.4" vertical-offset="109" max-vertical-offset="680">
               <folding />
             </state>
           </provider>
@@ -132,10 +131,8 @@
       <file leaf-file-name="AppConfig.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/SpringLesson/AppConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="27" selection-start="1080" selection-end="1095" vertical-scroll-proportion="0.68010753" vertical-offset="410" max-vertical-offset="833">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="24" column="0" selection-start="640" selection-end="640" vertical-scroll-proportion="0.6638418" vertical-offset="54" max-vertical-offset="714">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -143,7 +140,7 @@
       <file leaf-file-name="greeting.properties" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/resources/greeting.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="7" selection-start="7" selection-end="7" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
+            <state line="1" column="12" selection-start="16" selection-end="34" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="119">
               <folding />
             </state>
           </provider>
@@ -152,11 +149,8 @@
       <file leaf-file-name="AdvancedChatBot.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/SpringLesson/AdvancedChatBot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="30" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0" vertical-offset="70" max-vertical-offset="493">
-              <folding>
-                <element signature="e#409#410#0" expanded="true" />
-                <element signature="e#449#450#0" expanded="true" />
-              </folding>
+            <state line="10" column="30" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0" vertical-offset="70" max-vertical-offset="459">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -164,7 +158,7 @@
       <file leaf-file-name="Application.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/SpringLesson/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="167" selection-end="297" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
+            <state line="12" column="9" selection-start="291" selection-end="291" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="629">
               <folding />
             </state>
           </provider>
@@ -183,18 +177,20 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/SpringLesson/GreetingService.java" />
         <option value="$PROJECT_DIR$/src/main/java/SpringLesson/HelloWorldService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SpringLesson/ConfiguredGreetingService.java" />
         <option value="$PROJECT_DIR$/greeting.properties" />
         <option value="$PROJECT_DIR$/src/main/java/SpringLesson/greeting.properties" />
         <option value="$PROJECT_DIR$/src/main/java/SpringLesson/AdvancedChatBot.java" />
         <option value="$PROJECT_DIR$/src/main/java/SpringLesson/Application.java" />
-        <option value="$PROJECT_DIR$/src/main/java/spring-config.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/SpringLesson/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/SpringLesson/HelloKittyService.java" />
+        <option value="$PROJECT_DIR$/src/resources/greeting.properties" />
         <option value="$PROJECT_DIR$/src/main/java/SpringLesson/AppConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SpringLesson/ConfiguredGreetingService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SpringLesson/App.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/spring-config.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/SpringLesson/BeforeExample.java" />
       </list>
     </option>
   </component>
@@ -239,8 +235,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -341,6 +335,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -639,7 +635,8 @@
       <created>1394877797734</created>
       <updated>1394877797734</updated>
       <workItem from="1394877814342" duration="5039000" />
-      <workItem from="1394962901126" duration="3601000" />
+      <workItem from="1394962901126" duration="6700000" />
+      <workItem from="1396087850736" duration="1624000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;">
       <created>1394879146408</created>
@@ -653,11 +650,23 @@
       <created>1394880338848</created>
       <updated>1394880338848</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Initial commit&#10;">
+      <created>1394966551969</created>
+      <updated>1394966551969</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Initial commit&#10;">
+      <created>1394971617317</created>
+      <updated>1394971617317</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added AOP&#10;">
+      <created>1396089473300</created>
+      <updated>1396089473300</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8640000" />
+    <option name="totallyTimeSpent" value="13363000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -673,7 +682,7 @@
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3563403" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -684,7 +693,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32744783" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3563403" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -705,7 +714,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="Initial commit&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit&#10;" />
+    <MESSAGE value="added AOP&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="added AOP&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -715,6 +725,76 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/SpringLesson/GreetingService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="1" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="238">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SpringLesson/HelloWorldService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="59" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="289">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SpringLesson/HelloKittyService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="17" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="340">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SpringLesson/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="5" selection-start="801" selection-end="801" vertical-scroll-proportion="0.0" vertical-offset="41" max-vertical-offset="442">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SpringLesson/ConfiguredGreetingService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="29" selection-start="742" selection-end="742" vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="663">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spring-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="61" selection-start="666" selection-end="666" vertical-scroll-proportion="0.0" vertical-offset="95" max-vertical-offset="646">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SpringLesson/AppConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="30" selection-start="639" selection-end="639" vertical-scroll-proportion="0.0" vertical-offset="410" max-vertical-offset="833">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/greeting.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="26" selection-start="34" selection-end="34" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="119">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SpringLesson/AdvancedChatBot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="30" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0" vertical-offset="70" max-vertical-offset="493">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SpringLesson/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="9" selection-start="291" selection-end="291" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="629">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="0" selection-start="448" selection-end="448" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="1377">
@@ -767,10 +847,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/SpringLesson/AdvancedChatBot.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="52" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="425">
-          <folding>
-            <element signature="e#409#410#0" expanded="true" />
-            <element signature="e#449#450#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -781,54 +858,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SpringLesson/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="9" selection-start="291" selection-end="291" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SpringLesson/ConfiguredGreetingService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="29" selection-start="742" selection-end="742" vertical-scroll-proportion="0.0" vertical-offset="138" max-vertical-offset="629">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="448" selection-end="448" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1377">
+        <state line="84" column="20" selection-start="2998" selection-end="2998" vertical-scroll-proportion="0.0" vertical-offset="1176" max-vertical-offset="1649">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SpringLesson/HelloWorldService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="59" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/greeting.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="7" selection-start="7" selection-end="7" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/spring-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="61" selection-start="666" selection-end="666" vertical-scroll-proportion="-3.0" vertical-offset="95" max-vertical-offset="646">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SpringLesson/AdvancedChatBot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="30" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0" vertical-offset="53" max-vertical-offset="493">
-          <folding>
-            <element signature="e#409#410#0" expanded="true" />
-            <element signature="e#449#450#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SpringLesson/ConfiguredGreetingService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="5" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SpringLesson/HelloKittyService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="17" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+        <state line="5" column="59" selection-start="122" selection-end="122" vertical-scroll-proportion="0.24011299" vertical-offset="0" max-vertical-offset="354">
           <folding />
         </state>
       </provider>
@@ -840,26 +893,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SpringLesson/Application.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/SpringLesson/HelloKittyService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="167" selection-end="297" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
+        <state line="8" column="30" selection-start="151" selection-end="168" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SpringLesson/BeforeExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="549" selection-end="549" vertical-scroll-proportion="0.0" vertical-offset="190" max-vertical-offset="595">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spring-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="43" selection-start="1893" selection-end="1911" vertical-scroll-proportion="-17.4" vertical-offset="109" max-vertical-offset="680">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/greeting.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="12" selection-start="16" selection-end="34" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="119">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SpringLesson/AdvancedChatBot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="30" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0" vertical-offset="53" max-vertical-offset="493">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SpringLesson/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="21" selection-start="621" selection-end="621" vertical-scroll-proportion="0.0" vertical-offset="53" max-vertical-offset="425">
+        <state line="19" column="17" selection-start="747" selection-end="752" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SpringLesson/AppConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="27" selection-start="1080" selection-end="1095" vertical-scroll-proportion="0.68010753" vertical-offset="410" max-vertical-offset="833">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="24" column="0" selection-start="640" selection-end="640" vertical-scroll-proportion="0.6638418" vertical-offset="54" max-vertical-offset="714">
+          <folding />
         </state>
       </provider>
     </entry>
